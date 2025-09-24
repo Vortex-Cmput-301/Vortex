@@ -5,8 +5,14 @@ public abstract class Shape {
     private int y;
 
 
-    public Shape(int x, int y) {
-    }
+
+    Shape(int x, int y){
+        this.x = x;
+        this.y = y;
+   }
+
+//    new branch
+
 }
 
 
