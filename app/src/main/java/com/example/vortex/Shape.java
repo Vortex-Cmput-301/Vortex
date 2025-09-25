@@ -3,14 +3,13 @@ package com.example.vortex;
 public abstract class Shape {
     private int x;
     private int y;
-    private String color;
+    String color = "$PUT_YOUR_CHOICE_OF_COLOR";
 
 
-    Shape(int x, int y,String Color){
+
+    Shape(int x, int y){
         this.x = x;
         this.y = y;
-        this.color = "Purple";
-
    }
 
 //    new branch
