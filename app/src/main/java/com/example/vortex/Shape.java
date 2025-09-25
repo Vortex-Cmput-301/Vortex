@@ -3,7 +3,10 @@ package com.example.vortex;
 public abstract class Shape {
     private int x;
     private int y;
-    String color = "black";
+
+    String color = "$PUT_YOUR_CHOICE_OF_COLOR";
+
+
 
 
     Shape(int x, int y){
